@@ -1,14 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en">    
 
 <head>
     <meta charset="utf-8">
-    <title> Website Concept clubs </title>
+    <title> Website Concept home </title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
 
 <body>
+
+<div class="wrapper">
+
+<div class="hero-banner">
+    <img src="placeholder.png" alt="banner" class="banner-image">
+    <div class="hero-title"> Student Association </div>
+</div>
 
 <div id="sidePanel" class="sidepanel">
     <div class="sidePanelContent">
@@ -31,84 +38,21 @@
     </div>
 </div>
 
-<button class="sidePanelButton" type="sidebarButton" onclick="toggleSidePanel()">
-    <span class="open-icon">&raquo;</span>
-    <span class="close-icon">&laquo;</span>
-</button>
+    <button class="sidePanelButton" type="sidebarButton" onclick="toggleSidePanel()">
+        <span class="open-icon">&raquo;</span>
+        <span class="close-icon">&laquo;</span>
+    </button>
 
 <div class="main" id="mainContent">
 
-        <h1> All Clubs </h1>
-
-    <div class="gridContainer">
-
-    <div class="card">
-        <div class="container">
-            <div>
-            <img src="placeholder.png" alt="club image" class="club-image">
-            <h2> Club [a]</h2>
-            <h3> [category] </h3>
-            </div>
-            <p>Description: This is a description for Club A.</p>
+    <div class="introduction-container">
+        <div>
+        <h2 class="heading"> introduction </h2>
+        <p class="paragraph-text"> this is paragraph text for the home page </p>
         </div>
+        <img src="placeholder.png" alt="image" class="home-image">
     </div>
-
-    <div class="card">
-        <div class="container">
-            <div>
-            <img src="placeholder.png" alt="club image" class="club-image">
-            <h2> Club [b]</h2>
-            <h3> [category] </h3>
-            </div>
-            <p>Description: This is a slightly longer, more detailed description for Club B.</p>
-        </div>
-    </div>
-
-    <div class="card">
-        <div class="container">
-            <div>
-            <img src="placeholder.png" alt="club image" class="club-image">
-            <h2> Club [c]</h2>
-            <h3> [category] </h3>
-            </div>
-            <p>Description: This is an unnecessarily long, detailed description for Club C. This description is a placeholder, and is currently serving the purpose of testing the limits of this container.</p>
-        </div>
-    </div>
-
-    <div class="card">
-        <div class="container">
-            <div>
-            <img src="placeholder.png" alt="club image" class="club-image">
-            <h2> Club [d]</h2>
-            <h3> [category] </h3>
-            </div>
-            <p>Description: This is a truly unnecessarily, unreasonably long, convoluted description for Club D. As with club C, this is a placeholder description serving the purpose of testing the limits of this container, and it will almost certainly break the boundary. What club would have a description this long, probably none, but in case there is, this club's description will give us a reason to implement long description functionality.</p>
-        </div>
-    </div>
-
-    <div class="card">
-        <div class="container">
-            <div>
-            <img src="placeholder.png" alt="club image" class="club-image">
-            <h2> Club [e]</h2>
-            <h3> [category] </h3>
-            </div>
-            <p>Description: [description E]</p>
-        </div>
-    </div>
-
-    <div class="card">
-        <div class="container">
-            <div>
-            <img src="placeholder.png" alt="club image" class="club-image">
-            <h2> Club [f]</h2>
-            <h3> [category] </h3>
-            </div>
-            <p>Description: [description F]</p>
-        </div>
-    </div>
-
-    </div>
+</div>
 
 </div>
 
